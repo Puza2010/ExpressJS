@@ -1,0 +1,8 @@
+html
+    head
+        title= Hello
+    body
+        form(method='GET' action='/auth/google')
+            label(for='name') Log in:
+            input(type='text', placeholder='Enter your nickname')
+            button.btn.btn-primary(type='submit') Sign up
